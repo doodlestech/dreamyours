@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2124B1;
+    --primary: #4225c2;
     --secondary: #4777F5;
     --light: #F7FAFF;
     --dark: #1D1D27;
@@ -333,7 +333,7 @@ h6,
 
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    transition: .5s;
+    transition: .1s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -353,6 +353,31 @@ h6,
     color: var(--dark) !important;
 }
 
+.client-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid white;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Additional styles for the slider container */
+#client-slider .item {
+    text-align: center;
+    padding: 10px;
+}
+
+#client-slider .item img {
+    display: inline-block;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#client-slider .item img:hover {
+    transform: scale(1.05);
+}
 
 /*** Team ***/
 .team-item {
