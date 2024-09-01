@@ -30,6 +30,30 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+    <!-- Disable right-click and certain key combinations -->
+    <script type="text/javascript">
+        document.addEventListener('contextmenu', (e) => e.preventDefault());
+    
+        function ctrlShiftKey(e, keyCode) {
+          return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+        }
+    
+        document.onkeydown = (e) => {
+          // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + Shift + C, Ctrl + U
+          if (
+            e.keyCode === 123 ||
+            ctrlShiftKey(e, 'I') ||
+            ctrlShiftKey(e, 'J') ||
+            ctrlShiftKey(e, 'C') ||
+            (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+          )
+            return false;
+        };
+        </script>
 </head>
 
 <body>
@@ -61,7 +85,7 @@
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
                     </div>
-                    <a href="https://wa.me/+917418294955" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Get An Quote</a>
+                    <a href="https://wa.me/+918903448052" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3">Get An Quote</a>
                 </div>
             </nav>
 
@@ -196,7 +220,7 @@
                             <div class="service-icon flex-shrink-0">
                                 <i class="fa fa-rss fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Iot Development</h5>
+                            <h5 class="mb-3">IoT Development</h5>
                             <a href="service.html">Read More</a>
                         </div>
                     </div>
@@ -214,7 +238,7 @@
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>"Dream Yours Infotech transformed our online presence with a stunning website! Highly recommend!"</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
@@ -225,7 +249,7 @@
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>"Professional, efficient, and creative. Dream Yours Infotech nailed our IoT project."</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
@@ -236,7 +260,7 @@
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>"Excellent support and flawless execution. Dream Yours Infotech is our go-to for all tech needs."</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
@@ -247,7 +271,7 @@
                     </div>
                     <div class="testimonial-item bg-transparent border rounded text-white p-4">
                         <i class="fa fa-quote-left fa-2x mb-3"></i>
-                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        <p>"Top-notch service and seamless eCommerce solutions. Dream Yours Infotech exceeded our expectations!"</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
@@ -260,6 +284,36 @@
             </div>
         </div>
         <!-- Testimonial End -->
+
+        <div class="container-xxl bg-primary testimonial py-5 my-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5 text-center">
+                <h2 class="text-white mb-5">Our Clients</h2>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="" src="img/abhijith.jpg" style="width: 200px; height: 200px;">
+                            <div class="ps-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded text-white p-4">
+                        <div class="d-flex align-items-center">
+                            <img class="" src="img/trj.png" style="width: 200px; height: 200px;">
+                            <div class="ps-3">
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+        
         
 
         <!-- Footer Start -->
@@ -268,10 +322,25 @@
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
                         <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt me-3" class="btn btn-link"></i>IT-TBI-KLNCE, Pottapalayam Sivagangai-630612, India</p>
-                        <p><i class="fa fa-phone-alt me-3"></i><i href="tel:+01234567890"></i>+918825677720</p>
-                        <p><i class="fa fa-phone-alt me-3"></i>+919790446280</a></p>
-                        <p><i class="fa fa-envelope me-3"></i>dream@gmail.com</p>
+                        <p>
+                            <a href="https://maps.app.goo.gl/aiBTKMj6i3gi22PV8" class="btn btn-link" target="_blank">
+                                <i class="fa fa-map-marker-alt me-3"></i>
+                                IT-TBI-KLNCE, Pottapalayam Sivagangai-630612, India
+                            </a>
+                        </p>
+                        <p>
+                            <a href="tel:+918903448052" class="btn btn-link">
+                                <i class="fa fa-phone-alt me-3"></i>
+                                +918903448052
+                            </a>
+                        </p>
+                        <p>
+                            <a href="mailto:dreamyourstech@gmail.com" class="btn btn-link">
+                                <i class="fa fa-envelope me-3"></i>
+                                dreamyourstech@gmail.com
+                            </a>
+                        </p>
+                        
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
@@ -285,7 +354,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                             <img class="img-fluid" src="img/logo.png" alt="Image">
-                            <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                            <p>"Crafting Your Digital Dreams"</p>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <h5 class="text-white mb-4">Newsletter</h5>
@@ -330,6 +399,27 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "TfI_3SdH0PmQER-ArU0Ff",
+        
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="TfI_3SdH0PmQER-ArU0Ff"
+        
+        defer>
+        </script>
+        
+        
+        
+
 </body>
 
 </html>
